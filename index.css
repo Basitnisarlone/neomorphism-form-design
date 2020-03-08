@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFF9FD;
+    height: 100vh;
+}
+
+
+.form-container{
+    background-color: #EFF9FD;
+    padding: 2em;
+    position: absolute;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    box-shadow: #C6E0EA 25px 25px 40px, #FFFFFF -25px -25px 40px;
+}
+
+label{
+    font-size: 1em;
+    font-weight: bold;
+    color: #5D5D5D;
+}
+
+.ins{
+    outline: none;
+    border: none;
+    width: 20em;
+    border-radius: 5em;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    -ms-border-radius: 5em;
+    -o-border-radius: 5em;
+    padding: 1em;
+    font-size: 1em;
+    color: #5D5D5D;
+    font-weight: bold;
+}
+
+.login-btn{
+    background-color: #FFA2DD;
+    outline: none;
+    border: none;
+    border-radius: 5em;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    -ms-border-radius: 5em;
+    -o-border-radius: 5em;
+    padding: 1em;
+    font-size: 1em;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.forgot-password-container{
+    text-align: center;
+}
+
+.forgot-password{
+    color: #5D5D5D;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.signup-btn{
+    background-color: #7CFCD9;
+    outline: none;
+    border: none;
+    border-radius: 5em;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    -ms-border-radius: 5em;
+    -o-border-radius: 5em;
+    padding: 1em;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+}
